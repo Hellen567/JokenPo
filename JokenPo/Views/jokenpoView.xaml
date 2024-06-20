@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JokenPo.Views.jokenpoView"
+             Title="jokenpoView">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+
+            <HorizontalStackLayout Spacing="100"
+                                   Margin="0,170,0,0"
+                                   VerticalOptions="Center">
+                <VerticalStackLayout Spacing="5">
+
+                    <Label
+                        Text="{Binding JNome}"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"/>
+
+                    <Image
+                        Source="{Binding JImagem}"
+                        HeightRequest="185"
+                        Aspect="AspectFit"/>
+
+                </VerticalStackLayout>
+
+                <HorizontalStackLayout Spacing="15">
+                    <Label
+                        Text="{Binding JPontos}"
+                        FontSize="40"
+                        VerticalOptions="Center"
+                        FontAttributes="Bold"/>
+
+                    <Label
+                        Text="X"
+                        FontSize="20"
+                        VerticalOptions="Center"
+                        FontAttributes="Bold"/>
+
+                    <Label
+                        Text="{Binding OpPontos}"
+                        FontSize="40"
+                        VerticalOptions="Center"
+                        FontAttributes="Bold"/>
+
+                </HorizontalStackLayout>
+
+                <VerticalStackLayout Spacing="5">
+
+                    <Label
+                        Text="{Binding OpNome}"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"/>
+
+                    <Image
+                        Source="{Binding OpImagem}"
+                        HeightRequest="185"
+                        Aspect="AspectFit"
+                        SemanticProperties.Description="Imagem do Oponente"/>
+
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+
+            <Label
+                Margin="0,50,0,0"
+                Text="{Binding Resultado}"
+                HorizontalOptions="Center"
+                FontSize="25"
+                FontAttributes="Bold"/>
+
+            <Picker Title="Selecione sua jogada"
+                    SelectedItem="{Binding JEscolha}"
+                    WidthRequest="300"
+                    BackgroundColor="Gray">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Pedra</x:String>
+                        <x:String>Papel</x:String>
+                        <x:String>Tesoura</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button
+                Text="Jogar"
+                Command="{Binding JogarCommand}"
+                HorizontalOptions="Fill"
+                WidthRequest="300"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JokenPo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C74A8-C0EE-47F7-897B-86F81574D2DB}|JokenPo\\JokenPo.csproj|d:\\jokenpo\\jokenpo\\viewmodels\\jokenpoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C74A8-C0EE-47F7-897B-86F81574D2DB}|JokenPo\\JokenPo.csproj|solutionrelative:jokenpo\\viewmodels\\jokenpoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C74A8-C0EE-47F7-897B-86F81574D2DB}|JokenPo\\JokenPo.csproj|d:\\jokenpo\\jokenpo\\views\\jokenpoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C0C74A8-C0EE-47F7-897B-86F81574D2DB}|JokenPo\\JokenPo.csproj|solutionrelative:jokenpo\\views\\jokenpoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jokenpoViewModel.cs",
+              "DocumentMoniker": "D:\\JokenPo\\JokenPo\\ViewModels\\jokenpoViewModel.cs",
+              "RelativeDocumentMoniker": "JokenPo\\ViewModels\\jokenpoViewModel.cs",
+              "ToolTip": "D:\\JokenPo\\JokenPo\\ViewModels\\jokenpoViewModel.cs",
+              "RelativeToolTip": "JokenPo\\ViewModels\\jokenpoViewModel.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAHMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T16:36:57.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jokenpoView.xaml",
+              "DocumentMoniker": "D:\\JokenPo\\JokenPo\\Views\\jokenpoView.xaml",
+              "RelativeDocumentMoniker": "JokenPo\\Views\\jokenpoView.xaml",
+              "ToolTip": "D:\\JokenPo\\JokenPo\\Views\\jokenpoView.xaml",
+              "RelativeToolTip": "JokenPo\\Views\\jokenpoView.xaml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T16:36:29.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
